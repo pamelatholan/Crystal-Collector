@@ -1,0 +1,19 @@
+#crystal {
+    height: 100px;
+    width: 100px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Mystery Quest', cursive;
+    margin-top: 20px;
+}
+
+body {
+    background-image: url(file:///C:/Users/pamel/Unit-4-Game/assets/images/skulls.png)
+}
+
+.row {
+    margin-left: 525px;
+}
