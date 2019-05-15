@@ -12,13 +12,53 @@
 <body>
     <h1>Crystal Collector</h1>
     <br>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 instruction">
+            <h2>Instructions:</h2>
+    <p>Click the crystals to try and match the number generated below.</p>
+    <p>You won't know the value of a crystal until you click on it and the values will change for each game.</p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 number">
+                <h2>Number to Match: <span id="randomNumber"></span></h2>
+            </div>
+            <div class="col-md-6 stats">
+                <div class= "row">
+                    <h3>Wins: <span id="playerWins"></span></h3>
+                    <br>
+                    <h3>Losses: <span id="playerLosses"></span></h3>
+                </div>        
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 total"></div>
+            <h3>Your Total: <span id="finalTotal"></span></h3>
+        </div>
+    </div>
+    <br>
+    <br>
     <div class="container">
     <div class="row">
-            <button><img src = "./assets/images/crystal1.jpg" id="crystal"></button>
-            <button><img src = "./assets/images/crystal2.jpg" id="crystal"></button>
-            <button><img src = "./assets/images/crystal3.jpg" id="crystal"></button>
-            <button><img src = "./assets/images/crystal4.jpg" id="crystal"></button>
+            <button><img src = "./assets/images/crystal1.jpg" id="img1"></button>
+            <button><img src = "./assets/images/crystal2.jpg" id="img2"></button>
+            <button><img src = "./assets/images/crystal3.jpg" id="img3"></button>
+            <button><img src = "./assets/images/crystal4.jpg" id="img4"></button>
     </div>        
     </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="./assets/javascript/game.js"></script>
+
 </body>
 </html>
