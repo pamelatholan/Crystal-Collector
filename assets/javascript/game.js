@@ -1,7 +1,7 @@
 $(function() {
 
     // Selects a random number between 19 - 120 to be shown at the start of the game.
-    var randomMatch = Math.floor(Math.random() * 120) + 1;
+    var randomMatch = Math.floor(Math.random() * 101) +19;
     $('#randomNumber').text(randomMatch);
 
     //Selects a random number between 1-12 for each crystal.
