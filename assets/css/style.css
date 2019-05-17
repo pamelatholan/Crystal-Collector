@@ -11,11 +11,18 @@ h1 {
 }
 
 body {
-    background-image: url(file:///C:/Users/pamel/Unit-4-Game/assets/images/skulls.png)
+    background-image: url(file:///C:/Users/pamel/Unit-4-Game/assets/images/crystal5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+
 }
 
 .row {
     margin-left: 525px;
+}
+
+button {
+    background: transparent;
 }
 
 #img1 {
@@ -38,3 +45,34 @@ body {
     width: 150px;
 }
 
+h2 {
+    margin-left: 450px;
+    font-family: 'Mystery Quest', cursive;
+    font-size: 30px;
+}
+
+p {
+    margin-left: 450px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+h3 {
+    margin-left: 425px;
+    font-family: 'Mystery Quest', cursive;
+    font-size: 30px;
+}
+
+p2 {
+margin-left: 425px;
+}
+
+#playerWins {
+    font-family: 'Mystery Quest', cursive;
+    font-size: 30px;  
+}
+
+#playerLosses {
+    font-family: 'Mystery Quest', cursive;
+    font-size: 30px;
+}

@@ -1,5 +1,5 @@
 # Crystal Collector
-# HW 4
+* HW 4
 
 * Player will try and match the random number by clicking on different gems with hidden number values.  The gems will change values each game and you will not know the value until you click on the gem.
 

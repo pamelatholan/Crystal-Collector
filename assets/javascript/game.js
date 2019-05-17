@@ -54,7 +54,7 @@ $(function() {
     $('#img1').on('click', function() {
         playerTotal = playerTotal + randomOne;
         $('#finalTotal').text(playerTotal);
-        //sets win/lose conditions
+    //sets win/lose conditions
         if (playerTotal === randomMatch) {
             youWon();
         } else if (playerTotal > randomMatch) {
