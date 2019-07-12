@@ -1,5 +1,4 @@
 ## Crystal Collector
-## HW 4
 
 ![Crystals](https://github.com/pamelatholan/Unit-4-Game/blob/master/assets/images/CrystalCollector.PNG)
 
