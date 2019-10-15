@@ -1,25 +1,24 @@
-## Crystal Collector
+# Crystal Collector
 
-![Crystals](https://github.com/pamelatholan/Unit-4-Game/blob/master/assets/images/CrystalCollector.PNG)
+Deployed on [GitHub Pages](https://pamelatholan.github.io/Crystal-Collector/)
 
-* Player will try and match the random number by clicking on different gems with hidden number values.  The gems will change values each game and you will not know the value until you click on the gem.
+#### Click the four crystals displayed as buttons to try and match the randomly generated number.  The values of each crystal will not be displayed and will reset for each game.
 
-* The random number shown at the start of the game will be between 19 - 120.
+### Game Play:
+* Click the crystals to try and match the randomly generated number.
+* You won't know the value of a crystal until you click on it.
+    * Values will be between 1-12.
+* Values will reset for each game.
 
-* Each crystal will have a random hidden value between 1 - 12.
+### Stats Displayed:
+* Number to Match
+    * Randomly generated number between 19-120
+* Wins/Losses
+* Your current total as you click on the crystals
 
-* There will be four crystals displayed as buttons on the page.
-
-* The player will be shown a random number at the start of the game.
-
-* When the player clicks on a crystal, it will add a specific amount of points to the player's total score. 
-
-* The player wins if their total score matches the random number.
-
-* The player loses if their score goes above the random number.
-
-* The game restarts whenever the player wins or loses.
-
-
-
-
+### Tools/Languages Used:
+* HTML
+* CSS
+* JavaScript
+* JQuery
+* GoogleFonts
