@@ -1,5 +1,7 @@
 # Crystal Collector
 
+![Crystal](https://github.com/pamelatholan/Crystal-Collector/blob/master/assets/images/CrystalCollector.PNG)
+
 Deployed on [GitHub Pages](https://pamelatholan.github.io/Crystal-Collector/)
 
 #### Click the four crystals displayed as buttons to try and match the randomly generated number.  The values of each crystal will not be displayed and will reset for each game.
